@@ -1,0 +1,58 @@
+{
+  "number": 33,
+  "wall": {
+    "paths": [
+      "artifacts/line-2/wall.png",
+      "artifacts/line-2/wall-v14.png"
+    ],
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "bit_depth": 8,
+    "bytes": 3942909,
+    "sha256": "19751a7d5534fed62f71158542f758077b8726086359f821e1efc1c089ca95c4"
+  },
+  "thumbnail": {
+    "path": "dist/line-2/33.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75286,
+    "sha256": "95939fef590c0454282dae060965af68d0c96432e0704c7ee0a6b4fe3a784e21"
+  },
+  "ancestor_sha256": "b435d231d15aa90e39de50f4b1ca6810b9102fb2cbca9b4e504126e9f810b967",
+  "generated_sha256": "d21b8b5e6f113eeca5dbc70aac4b93f4c54c368d8bc9c39dab1e4ad20ea9d7b5",
+  "preservation": {
+    "rectangle_exclusive": [
+      950,
+      270,
+      1130,
+      390
+    ],
+    "feather_pixels": 15,
+    "changed_pixels_inside": 20833,
+    "changed_pixels_outside": 0
+  },
+  "visual_review": {
+    "inspected": [
+      "artifacts/line-2/wall-v14.png",
+      "dist/line-2/33.jpg"
+    ],
+    "pepe": "Inherited wide mouth and heavy-lidded eyes are preserved.",
+    "hands": "Both inherited hands have four fingers and one thumb, five digits each. No new hands or handprints.",
+    "ancestors": "All earlier painted marks lie outside the addition and are pixel-identical.",
+    "style": "Uneven worn charcoal, red ochre and chalk pigment on warm torchlit rock.",
+    "prohibited_elements": "No visible letters, numbers, captions, signatures, logos, watermarks, borders, real people, or political or hateful symbols."
+  },
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Generated rock within the small addition can differ; outside pixels are identical.",
+    "The inherited rock has a detailed photographic-looking texture and the motif softens in the JPEG.",
+    "Local visual review is not independent certification."
+  ]
+}

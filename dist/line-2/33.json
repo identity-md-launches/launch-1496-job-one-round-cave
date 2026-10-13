@@ -1,0 +1,30 @@
+{
+  "name": "The Receiving Niche",
+  "image": "https://api.imd.fun/artifacts/19751a7d5534fed62f71158542f758077b8726086359f821e1efc1c089ca95c4",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 33
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "handoff-landing"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A prepared niche receives a verified bundle only when its landing place is clear."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "reproducible offline-verifiable worker handoffs"
+    }
+  ]
+}

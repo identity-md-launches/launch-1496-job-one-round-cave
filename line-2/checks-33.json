@@ -1,0 +1,22 @@
+{
+  "tool": "handoff-landing",
+  "demo": {
+    "archive": "line-2/handoff.zip",
+    "archive_sha256": "aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb",
+    "fresh_destination_ready": true,
+    "existing_source_destination_ready": false,
+    "trusted_digest_check_passed": true
+  },
+  "behavior_tests": {
+    "command": "python3 -B line-2/tools/handoff-landing/test_landing.py",
+    "passed": 7,
+    "failed": 0
+  },
+  "output_check": {
+    "record": "dist/line-2/33.json",
+    "wall_png": "artifacts/line-2/wall-v14.png",
+    "thumbnail_jpeg": "dist/line-2/33.jpg",
+    "record_hash_and_image_bytes_match": true,
+    "unmet_visual_requirements": []
+  }
+}
