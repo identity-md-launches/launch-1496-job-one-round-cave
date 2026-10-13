@@ -1,0 +1,48 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-3/wall-v14.png",
+      "artifacts/line-3/wall.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3972833,
+    "sha256": "69f4edf2d724d9c63a5972f912a874760888d662b8bba84b6c77c4545b42d06d"
+  },
+  "thumbnail": {
+    "path": "dist/line-3/33.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 74927
+  },
+  "preservation": {
+    "inheritedSha256": "482ab32c7c964306fd23f19a36ad7d5bdb3965b313f891e65c08b38a2e8f84dc",
+    "editRectangleXYXY": [
+      910,
+      205,
+      1085,
+      365
+    ],
+    "changedPixels": 3206,
+    "changedPixelsOutsideRectangle": 0
+  },
+  "cutout": {
+    "width": 1374,
+    "height": 1145,
+    "format": "PNG",
+    "mode": "RGBA"
+  },
+  "visualReview": {
+    "reviewed": true,
+    "method": "Manual inspection of the full PNG and 512-pixel JPEG",
+    "mark": "Small nested charcoal, red ochre, yellow ochre and chalk stone motif on upper-right rock",
+    "hands": "Pepe's inherited hands retain four fingers and one thumb each; no new hand or stencil was added",
+    "ancestors": "Pepe, older motifs, cave rock, cracks, torchlight and framing remain; zero pixels changed outside vacant placement rectangle",
+    "prohibitedContent": "No letters, numbers, captions, signatures, logos, watermarks, borders, real people or prohibited symbols observed",
+    "limits": "The new mark is small in the thumbnail, and the inherited rock has a photographic-looking texture that this round was required to preserve; visual judgment is local rather than independent certification"
+  },
+  "unmetVisualRequirements": []
+}

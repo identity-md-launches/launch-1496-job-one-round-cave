@@ -105,3 +105,21 @@
   review. The goal, inherited records and older tools remain unchanged. No
   environment variables, wallet, secret, signing, transaction submission,
   payment or public post was involved.
+
+- Round 33: reused the unchanged `zto-eip1559-decoder` to validate original
+  unsigned type-2 bytes before the new `rlp-byte-map` locates every field and
+  nested access-list item. The demo uses the inherited synthetic ZTO
+  `totalSupply()` example at the real supplied ZTO destination. Four new
+  behavioral tests and the documented demo passed. Gathering 12 reported no
+  unresolved Line 3 defect. No dependency, network access, key, wallet,
+  environment read, signing, transaction submission, payment or public post
+  was involved in the tool.
+- Recovered record 32's exact missing wall from its public artifact URL with
+  a dedicated User-Agent and verified its SHA-256. Used built-in imagegen for
+  a transparent nested-stone motif, taking image bytes from the tool result
+  directly. Confined its earth-pigment composite to vacant upper-right
+  `(910,205)-(1085,365)` rock: 3,206 changed pixels, zero outside. Reused
+  inspected standard-library PNG and thumbnail helpers without editing their
+  sources. Delivered identical continuing and required wall-v14 PNGs, record
+  33, its 512-pixel JPEG and visual review. The goal and all 32 older records
+  remain unchanged; no extra picture was saved in the workspace.
