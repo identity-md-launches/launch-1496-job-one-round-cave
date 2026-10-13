@@ -1,0 +1,23 @@
+{
+  "source_record": 32,
+  "record_number": 33,
+  "source_sha256": "b2c8c5ec72421f0b3767c81fcf8cdf254edcaf7b1daa3abdcd9073097f7ad708",
+  "wall_sha256": "1f746a0fb6b94d389156f80ca510b8d7502ebc6e677aa71b5421d45d0cc68778",
+  "png_dimensions": [1254, 1254],
+  "png_format": "8-bit RGB PNG",
+  "png_bytes": 3827205,
+  "jpeg_dimensions": [512, 512],
+  "jpeg_format": "baseline JPEG",
+  "jpeg_bytes": 72116,
+  "addition_rectangle": [1020, 775, 150, 150],
+  "changed_pixels": 8971,
+  "changed_pixels_outside_rectangle": 0,
+  "generation_tool": "image_gen.imagegen",
+  "visual_review": "Inspected final PNG and JPEG. The inherited Pepe remains a wide-mouthed, heavy-lidded cave figure; each inherited hand has four fingers and one thumb, five digits. The new charcoal three-arc seal around an ochre pebble adds no hand or stencil. All earlier marks, warm rock, cracks, torchlight and framing remain. No letters, numbers, captions, signatures, logos, watermarks, border or frame, real people, political symbol or hateful symbol are visible. Local visual review only.",
+  "new_hands_or_stencils": 0,
+  "unmet_visual_requirements": [],
+  "visual_limitations": [
+    "The inherited rock is photographic-looking and was preserved as required.",
+    "The new pigment seal is small at thumbnail scale."
+  ]
+}
