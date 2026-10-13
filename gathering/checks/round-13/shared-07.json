@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "line-1/tools/snapshot-seal/snapshot_seal.py",
+    "verify",
+    "gathering/checks/round-13/pinned-zto-supply.json",
+    "gathering/checks/round-13/pinned-zto-seal.json"
+  ],
+  "exit": 0,
+  "stdout": "{\n  \"canonical_snapshot_sha256\": \"f0c4c77363b620bf960e86974f56fa6ec024bbbaefe12cf58f5d11f4a83c9e77\",\n  \"evidence_limits\": \"Integrity receipt for bytes and the pinned snapshot structure; not a signature, proof of provider honesty, finality, or current state.\",\n  \"observation\": {\n    \"block_hash\": \"0x886a172f9e36f127f7685d4ea34be826dee69fb8a22baa752360306d45a69617\",\n    \"block_number\": \"26180818\",\n    \"token\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n    \"total_supply_base_units\": \"1000000000000000000000000000\"\n  },\n  \"schema\": \"pinned-zto-seal/1\",\n  \"snapshot_sha256\": \"0593862623d469195b7ef369ceb8ec6622ad69595a8d4f32f0cd19050bcd30fc\",\n  \"verified\": true\n}\n",
+  "stderr": ""
+}

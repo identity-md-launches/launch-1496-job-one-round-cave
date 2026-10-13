@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "stdout": "",
+  "stderr": "test_complete_transport_replay (__main__.Tests.test_complete_transport_replay) ... ok\ntest_forbidden_requests_never_reach_wire (__main__.Tests.test_forbidden_requests_never_reach_wire) ... ok\ntest_reorg_rejected_through_actual_wire (__main__.Tests.test_reorg_rejected_through_actual_wire) ... ok\ntest_wrong_chain_stops_wire_sequence (__main__.Tests.test_wrong_chain_stops_wire_sequence) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 2.585s\n\nOK\n",
+  "command": [
+    "python3",
+    "-B",
+    "line-1/tools/pinned-transport-check/test_pinned_transport.py"
+  ],
+  "kind": "suite",
+  "tests_run": 4,
+  "checked_at": "2026-10-13T03:28:50.436139+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

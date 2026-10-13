@@ -1,0 +1,93 @@
+{
+  "dependencies": [
+    {
+      "source": "line-4/tools/transfer-window-ledger/ledger.py",
+      "copy": "shared/ledger-handoff/vendor/transfer-window-ledger/ledger.py",
+      "source_sha256": "c6247e2579d4ae98fd65bae78a41d6d00c132efa68199510ea421f62f1db2e8d",
+      "copy_sha256": "c6247e2579d4ae98fd65bae78a41d6d00c132efa68199510ea421f62f1db2e8d",
+      "changed": false,
+      "adaptation": null
+    },
+    {
+      "source": "line-4/tools/transfer-window-activity/activity.py",
+      "copy": "shared/ledger-handoff/vendor/transfer-window-activity/activity.py",
+      "source_sha256": "92cccd2924a0a6f119a6a35200506bee118af163bca194ea8356e32a7e482012",
+      "copy_sha256": "92cccd2924a0a6f119a6a35200506bee118af163bca194ea8356e32a7e482012",
+      "changed": false,
+      "adaptation": null
+    },
+    {
+      "source": "line-4/tools/transfer-crosscheck/crosscheck.py",
+      "copy": "shared/ledger-handoff/vendor/transfer-crosscheck/crosscheck.py",
+      "source_sha256": "374724972a019d56fa46665dc2f1c9f0c8bcd19eb90fe160ab0341d0042ac221",
+      "copy_sha256": "374724972a019d56fa46665dc2f1c9f0c8bcd19eb90fe160ab0341d0042ac221",
+      "changed": false,
+      "adaptation": null
+    },
+    {
+      "source": "line-4/tools/erc20-transfer-window/transfer_window.py",
+      "copy": "shared/ledger-handoff/vendor/erc20-transfer-window/transfer_window.py",
+      "source_sha256": "32798d3798f35873b9b9c9683381d3896d00b4faa6b3c9fe6ea7ca27a91b47f8",
+      "copy_sha256": "32798d3798f35873b9b9c9683381d3896d00b4faa6b3c9fe6ea7ca27a91b47f8",
+      "changed": false,
+      "adaptation": null
+    },
+    {
+      "source": "line-2/tools/handoff/handoff.py",
+      "copy": "shared/ledger-handoff/vendor/handoff/handoff.py",
+      "source_sha256": "0b3878b76c13a18951601aef2ec48daf8c56fbb195fea953be797a7f1d8df97d",
+      "copy_sha256": "0b3878b76c13a18951601aef2ec48daf8c56fbb195fea953be797a7f1d8df97d",
+      "changed": false,
+      "adaptation": null
+    },
+    {
+      "source": "line-2/tools/handoff-inspect/inspect_handoff.py",
+      "copy": "shared/ledger-handoff/vendor/handoff-inspect/inspect_handoff.py",
+      "source_sha256": "62cc8e4b31c231eb394bd5f3053c2db29c05fc4fa62d3aeafe76027a52b8103a",
+      "copy_sha256": "62cc8e4b31c231eb394bd5f3053c2db29c05fc4fa62d3aeafe76027a52b8103a",
+      "changed": false,
+      "adaptation": null
+    },
+    {
+      "source": "line-2/tools/handoff-portability/portability.py",
+      "copy": "shared/ledger-handoff/vendor/handoff-portability/portability.py",
+      "source_sha256": "6a2f646e3414afe34d60a467d460b3ca0a9963e6605df6edc091bc370394a96d",
+      "copy_sha256": "6a2f646e3414afe34d60a467d460b3ca0a9963e6605df6edc091bc370394a96d",
+      "changed": false,
+      "adaptation": null
+    },
+    {
+      "source": "line-2/tools/handoff-landing/landing.py",
+      "copy": "shared/ledger-handoff/vendor/handoff-landing/landing.py",
+      "source_sha256": "58f6352029b092a3933a79e063d4aca0f1930b54a7311acb654f0b72545b59fe",
+      "copy_sha256": "06529ea516fc983001c6519f11715894d03f3293c25d823cedd2a4744c19d7e3",
+      "changed": true,
+      "adaptation": "Resolve two tool dependencies beside vendored module; destination still uses cwd. Native demo is not used."
+    }
+  ],
+  "examples": [
+    {
+      "path": "shared/ledger-handoff/examples/zto-window.json",
+      "sha256": "5e6e40d2ceab41fda87abdc14276cf5503bbcd1e4ade67ce761b23ca011469ce",
+      "captured_at": "2026-10-13T03:23:30Z",
+      "provider": "https://ethereum-rpc.publicnode.com",
+      "from_block": 26177298,
+      "to_block": 26177309,
+      "transfer_count": 3
+    },
+    {
+      "path": "shared/ledger-handoff/examples/current-zto-window.json",
+      "sha256": "68acf5100918b45a29280a0369eb18f6e52df6ada0ade5ca7584575fdaf3ff80",
+      "captured_at": "2026-10-13T03:30:13Z",
+      "provider": "https://ethereum-rpc.publicnode.com",
+      "from_block": 26180889,
+      "to_block": 26180890,
+      "transfer_count": 1
+    }
+  ],
+  "archive": {
+    "path": "shared/ledger-handoff/examples/current-zto-ledger.zip",
+    "sha256": "b423df63eac6a58e4e2245e2abc79226a817b5bce25e9fb705ed0104f7760dcd",
+    "bytes": 4716
+  }
+}

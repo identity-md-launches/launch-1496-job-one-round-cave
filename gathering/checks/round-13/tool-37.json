@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "stdout": "",
+  "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n",
+  "command": [
+    "python3",
+    "-B",
+    "line-4/tools/transfer-window-activity/test_activity.py"
+  ],
+  "kind": "suite",
+  "tests_run": 3,
+  "checked_at": "2026-10-13T03:28:55.085021+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

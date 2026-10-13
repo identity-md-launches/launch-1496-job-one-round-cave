@@ -1,0 +1,15 @@
+{
+  "exit": 0,
+  "stdout": "{\n  \"demo\": \"real inherited archive; neither destination was changed\",\n  \"fresh\": {\n    \"archive_sha256\": \"aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb\",\n    \"destination\": \"line-2/tools/handoff-landing/unpacked-demo\",\n    \"file_count\": 2,\n    \"format\": \"handoff-landing-v1\",\n    \"note\": \"Read-only preflight of named workspace paths at one instant; no extraction, atomic reservation, sender authentication or payload safety claim. Existing names on a different case-insensitive filesystem are not checked.\",\n    \"path_issues\": [],\n    \"portability_issues\": [],\n    \"portability_profile\": \"conservative-filenames-v2\",\n    \"ready\": true,\n    \"trusted_digest_matched\": false\n  },\n  \"occupied\": {\n    \"archive_sha256\": \"aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb\",\n    \"destination\": \"line-2/tools/handoff\",\n    \"file_count\": 2,\n    \"format\": \"handoff-landing-v1\",\n    \"note\": \"Read-only preflight of named workspace paths at one instant; no extraction, atomic reservation, sender authentication or payload safety claim. Existing names on a different case-insensitive filesystem are not checked.\",\n    \"path_issues\": [\n      {\n        \"blocking_path\": \"line-2/tools/handoff/README.md\",\n        \"kind\": \"existing-file\",\n        \"path\": \"README.md\"\n      },\n      {\n        \"blocking_path\": \"line-2/tools/handoff/handoff.py\",\n        \"kind\": \"existing-file\",\n        \"path\": \"handoff.py\"\n      }\n    ],\n    \"portability_issues\": [],\n    \"portability_profile\": \"conservative-filenames-v2\",\n    \"ready\": false,\n    \"trusted_digest_matched\": false\n  }\n}\n",
+  "stderr": "",
+  "command": [
+    "python3",
+    "-B",
+    "line-2/tools/handoff-landing/landing.py",
+    "demo"
+  ],
+  "kind": "demo",
+  "tests_run": 0,
+  "checked_at": "2026-10-13T03:28:57.208870+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

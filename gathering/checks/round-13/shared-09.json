@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "line-4/tools/erc20-transfer-window/transfer_window.py",
+    "--rpc",
+    "https://eth.drpc.org",
+    "--from-block",
+    "26180889",
+    "--to-block",
+    "26180890"
+  ],
+  "exit": 0,
+  "stdout": "{\n  \"captured_at\": \"2026-10-13T03:32:45Z\",\n  \"chain_id\": 1,\n  \"decimals\": 18,\n  \"decimals_block\": 26180890,\n  \"duplicate_count\": 0,\n  \"from_block\": 26180889,\n  \"from_block_anchor\": {\n    \"hash\": \"0x2705ed206f410bc6fd73708d93e839cde741a990f541499e5f010372a7c1c662\",\n    \"number\": 26180889\n  },\n  \"head_at_capture\": 26180903,\n  \"limitations\": \"Single-provider observation; not a completeness or finality proof. Interior block hashes are retained but not independently verified.\",\n  \"provider_result\": \"validated\",\n  \"raw_logs\": [\n    {\n      \"address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n      \"blockHash\": \"0x2705ed206f410bc6fd73708d93e839cde741a990f541499e5f010372a7c1c662\",\n      \"blockNumber\": \"0x18f7d19\",\n      \"blockTimestamp\": \"0x6acda5ab\",\n      \"data\": \"0x00000000000000000000000000000000000000000000075e4f0a776e67ffa6a2\",\n      \"logIndex\": \"0x44c\",\n      \"removed\": false,\n      \"topics\": [\n        \"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\",\n        \"0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90\",\n        \"0x0000000000000000000000004431ccdaa5efe25b2c9cc93c18abe8a45adc3e2a\"\n      ],\n      \"transactionHash\": \"0x9f8ac511de089cdd8309faeed62c60f1678ba445da924ca57e92e41f06ff48f3\",\n      \"transactionIndex\": \"0xd1\"\n    }\n  ],\n  \"read_only\": true,\n  \"rpc\": \"https://eth.drpc.org\",\n  \"schema_version\": 3,\n  \"to_block\": 26180890,\n  \"to_block_anchor\": {\n    \"hash\": \"0xe03a8b5a5a978f0e178b0599f16fa524e6a7069ac7b23a51238fcc7c884f57dd\",\n    \"number\": 26180890\n  },\n  \"token\": \"ZTO\",\n  \"token_address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n  \"transfer_count\": 1,\n  \"transfers\": [\n    {\n      \"block\": 26180889,\n      \"block_hash\": \"0x2705ed206f410bc6fd73708d93e839cde741a990f541499e5f010372a7c1c662\",\n      \"from\": \"0x000000000004444c5dc75cb358380d2e3de08a90\",\n      \"log_index\": 1100,\n      \"raw_value\": \"34796254819011052676770\",\n      \"to\": \"0x4431ccdaa5efe25b2c9cc93c18abe8a45adc3e2a\",\n      \"transaction_hash\": \"0x9f8ac511de089cdd8309faeed62c60f1678ba445da924ca57e92e41f06ff48f3\",\n      \"transaction_index\": 209,\n      \"value\": \"34796.25481901105267677\"\n    }\n  ]\n}\n",
+  "stderr": ""
+}

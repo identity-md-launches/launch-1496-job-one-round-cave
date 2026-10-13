@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/9cbb7bb2a41efa92e010921f287819c9ffb02c4375fa9496c8468701d8e00cc5","attributes":[{"trait_type":"Cave","value":"Base"}]}
+{
+  "name": "The Carried Pebbles",
+  "image": "https://api.imd.fun/artifacts/b1ebb9e7f639fb5e3f8258c43ec2592681f3e66c549ec1efb974edb49bb36c77",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 13
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Ledger handoff"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Four pebbles rest inside one loop as separate observations travel together."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}

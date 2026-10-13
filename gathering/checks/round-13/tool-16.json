@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "stdout": "",
+  "stderr": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.011s\n\nOK\n",
+  "command": [
+    "python3",
+    "-B",
+    "line-2/tools/handoff-inspect/test_inspect.py"
+  ],
+  "kind": "suite",
+  "tests_run": 19,
+  "checked_at": "2026-10-13T03:28:51.318438+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/rlp-byte-map",
+    "-v"
+  ],
+  "exit": 0,
+  "stdout": "",
+  "stderr": "test_cli_success_and_failure (test_byte_map.ByteMapTests.test_cli_success_and_failure) ... ok\ntest_demo_covers_original_bytes (test_byte_map.ByteMapTests.test_demo_covers_original_bytes) ... ok\ntest_nested_access_list_and_long_prefix (test_byte_map.ByteMapTests.test_nested_access_list_and_long_prefix) ... ok\ntest_rejects_signed_noncanonical_and_extra_bytes (test_byte_map.ByteMapTests.test_rejects_signed_noncanonical_and_extra_bytes) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.060s\n\nOK\n"
+}

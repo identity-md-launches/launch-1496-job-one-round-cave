@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "stdout": "",
+  "stderr": "..........................\n----------------------------------------------------------------------\nRan 26 tests in 0.006s\n\nOK\n",
+  "command": [
+    "python3",
+    "-B",
+    "line-1/tools/batch-capture/test_batch_capture.py"
+  ],
+  "kind": "suite",
+  "tests_run": 26,
+  "checked_at": "2026-10-13T03:28:47.009137+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

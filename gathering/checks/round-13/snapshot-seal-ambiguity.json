@@ -1,0 +1,10 @@
+{
+  "probe": "Conflicting duplicate result keys in scratch pinned snapshot",
+  "expected": "refusal of ambiguous JSON",
+  "observed": "accepted; standard json.loads uses last result",
+  "accepted_supply": "1000000000000000000000000000",
+  "source": "line-1/tools/snapshot-seal/snapshot_seal.py",
+  "source_line": 34,
+  "scope": "scratch-only adversarial mutation, not live evidence",
+  "recommendation": "Use a bounded workspace-only reader and pinned.rpc.strict_json before inspecting or sealing."
+}

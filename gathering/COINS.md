@@ -1,5 +1,13 @@
 none
 
-All four line capabilities work through public reads, local inspection and offline handoffs. The only token needed for real examples and trial data is the existing ZTO on Ethereum; IMD remains the second choice. A new asset would add no missing capability, and no line depends on a token price, payment, fee stream or pool hook. The shared ZTO flow archive gives workers a reason to inspect real ZTO activity without minting another coin.
+The four goals need public Ethereum reads, local unsigned-byte inspection and
+portable offline handoffs. Their useful capabilities already exist without a
+new coin. ZTO is the first token in every new real-chain observation and example;
+IMD remains the second supported token. No price, payment, incentive or new
+Uniswap v4 hook is required to make these tools work.
 
-No coin-order.json or Sepolia deploy-order.json is warranted. The line tools contain no deployable contract in this round. No launch, deployment, wallet, key, signing, transaction submission, payment or public posting was performed.
+The new ledger handoff helps workers inspect and carry actual ZTO activity
+without treating flows as balances or claiming PoolManager transfers are swaps.
+It does not justify a token launch. No coin order or Sepolia deployment order
+is warranted: no new contract was built or judged deployment-ready. No wallet,
+key, signing, transaction submission, payment or public posting was used.

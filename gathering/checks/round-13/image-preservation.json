@@ -1,0 +1,49 @@
+{
+  "source_record": 12,
+  "record_number": 13,
+  "source_sha256": "c4aebe5c29ff413caf4b6f8fcb62b2bcd594bed27d30b7dda45478e56fa10079",
+  "wall_sha256": "b1ebb9e7f639fb5e3f8258c43ec2592681f3e66c549ec1efb974edb49bb36c77",
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "png_format": "8-bit RGB PNG",
+  "png_bytes": 3813071,
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "baseline JPEG",
+  "jpeg_bytes": 69619,
+  "generated_motif_dimensions": [
+    1536,
+    1024
+  ],
+  "generated_motif_sha256": "05fb501362fd525631bee68baa045d474cd38af9d44618f015f04c8922b31b16",
+  "motif_crop": [
+    287,
+    295,
+    1172,
+    722
+  ],
+  "addition_rectangle": [
+    900,
+    120,
+    240,
+    125
+  ],
+  "changed_pixels": 11142,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Installed image tool motif; white paper removed in memory, earth pigment area-averaged into vacant rock.",
+  "visual_review": "Inspected whole PNG and 512px JPEG; ancestral Pepe has a wide mouth and heavy-lidded eyes, each of two hands has four fingers plus an opposing thumb (five digits). New pigment adds no hands or stencils. No visible letters, numbers, captions, signatures, logos, watermarks, border/frame, real people or prohibited symbols.",
+  "hand_digits": [
+    5,
+    5
+  ],
+  "unmet_visual_requirements": [],
+  "visual_limitations": [
+    "Inherited cave texture looks photographic; preserved as required.",
+    "Small new charcoal motif is subdued at 512px.",
+    "White pigment in generated motif was largely removed with the white background; four pebbles remain, mostly ochre and charcoal."
+  ]
+}

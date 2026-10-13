@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "stdout": "",
+  "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.003s\n\nOK\n",
+  "command": [
+    "python3",
+    "-B",
+    "line-3/tools/unsigned-guard/test_guard.py"
+  ],
+  "kind": "suite",
+  "tests_run": 8,
+  "checked_at": "2026-10-13T03:28:53.816027+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

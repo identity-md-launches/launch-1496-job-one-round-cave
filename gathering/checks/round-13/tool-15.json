@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "stdout": "",
+  "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.014s\n\nOK\n",
+  "command": [
+    "python3",
+    "-B",
+    "line-2/tools/handoff-contract/test_contract.py"
+  ],
+  "kind": "suite",
+  "tests_run": 4,
+  "checked_at": "2026-10-13T03:28:51.224896+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

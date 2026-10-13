@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "stdout": "",
+  "stderr": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.035s\n\nOK\n",
+  "command": [
+    "python3",
+    "-B",
+    "line-3/tools/gas-budget/test_gas_budget.py"
+  ],
+  "kind": "suite",
+  "tests_run": 14,
+  "checked_at": "2026-10-13T03:28:53.487192+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

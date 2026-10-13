@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "stdout": "",
+  "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n",
+  "command": [
+    "python3",
+    "-B",
+    "line-4/tools/transfer-window-coverage/test_coverage.py"
+  ],
+  "kind": "suite",
+  "tests_run": 6,
+  "checked_at": "2026-10-13T03:28:55.169496+00:00",
+  "workspace": "test/scratch/round-13-mirror"
+}

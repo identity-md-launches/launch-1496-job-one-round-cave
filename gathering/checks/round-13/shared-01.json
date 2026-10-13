@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "shared/ledger-handoff/test_ledger_handoff.py"
+  ],
+  "exit": 0,
+  "stdout": "",
+  "stderr": "test_digest_payload_contract_and_archive_size (__main__.Tests.test_digest_payload_contract_and_archive_size) ... ok\ntest_duplicate_logs_and_order_keep_same_ledger (__main__.Tests.test_duplicate_logs_and_order_keep_same_ledger) ... ok\ntest_empty_imd_and_zto (__main__.Tests.test_empty_imd_and_zto) ... ok\ntest_event_float_boolean_and_duplicate_json_keys_rejected (__main__.Tests.test_event_float_boolean_and_duplicate_json_keys_rejected) ... ok\ntest_raw_evidence_tampering_rejected (__main__.Tests.test_raw_evidence_tampering_rejected) ... ok\ntest_read_only_landing_and_standalone_cli (__main__.Tests.test_read_only_landing_and_standalone_cli) ... ok\ntest_real_evidence_determinism_exact_bytes_and_no_network (__main__.Tests.test_real_evidence_determinism_exact_bytes_and_no_network) ... ok\ntest_rehashed_false_ledger_is_rejected (__main__.Tests.test_rehashed_false_ledger_is_rejected) ... ok\ntest_self_transfers_and_totals_above_uint256 (__main__.Tests.test_self_transfers_and_totals_above_uint256) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.836s\n\nOK\n"
+}

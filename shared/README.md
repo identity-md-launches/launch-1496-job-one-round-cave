@@ -117,3 +117,20 @@ included. Verify the dated archive without network access:
 ```sh
 python3 -B shared/flow-handoff/flow_handoff.py check shared/flow-handoff/examples/round-12-zto-flows.zip
 ```
+
+## Ledger handoff (Gathering 13)
+
+[`ledger-handoff/`](ledger-handoff/README.md) carries Line 4's exact per-address
+in/out/net event accounting through Line 2's reproducible archive format. The
+receiver recomputes the ledger from raw logs, then checks a chosen workspace
+landing directory for conflicts without extracting or overwriting. Eight
+vendored dependencies and real ZTO evidence make it usable offline by a worker
+who has never seen this repository.
+
+```sh
+python3 -B shared/ledger-handoff/ledger_handoff.py demo
+```
+
+The included fresh two-block ZTO archive also passed the native handoff review
+and landing commands. Its receipt establishes internal consistency of dated
+provider evidence, not balances, complete history, sender identity or finality.
