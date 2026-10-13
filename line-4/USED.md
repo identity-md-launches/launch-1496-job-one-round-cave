@@ -190,3 +190,22 @@
   patches, including Pepe, his hands and every earlier mark, remain unchanged.
 - No dependency, key, wallet, secret, environment lookup, signature, transaction
   submission, payment or deployment was involved.
+
+## Round 33
+
+- Kept GOAL.md and every older record unchanged. Read the gathering report;
+  no reported line defect remained. Added the standard-library per-address
+  transfer-window ledger without changing any ancestor tool.
+- Reused the inherited strict crosscheck, raw-log reader, exact-unit formatter,
+  native address summary and dated real ZTO three-event demo capture. The new
+  tests distinguish synthetic mutations from retained chain evidence.
+- Read the same real historical ZTO range through the supplied mainnet relay,
+  attributed to the brief's public PublicNode endpoint. Only allowlisted public
+  reads were used, with the ancestor's dedicated User-Agent. No relay address
+  is retained in the deliverables.
+- Recovered record 32's newest wall and verified its SHA-256. Used the installed
+  image editor, then ffmpeg to retain only its small mark on vacant lower rock.
+  Used the read, inherited standard-library thumbnail helper for PNG decoding,
+  pixel comparison and JPEG encoding. Inspected the final wall and thumbnail.
+- No dependency installed, environment or secret read, wallet touched, message
+  posted, transaction signed or sent, payment made or contract deployed.

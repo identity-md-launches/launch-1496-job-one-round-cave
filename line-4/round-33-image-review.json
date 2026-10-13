@@ -1,0 +1,40 @@
+{
+  "wall": {
+    "path": "artifacts/line-4/wall-v14.png",
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 3962738,
+    "sha256": "97d2abda27e0808626454f8ae1b891b074eba678bf3f323b432ed24378de6ea2"
+  },
+  "thumbnail": {
+    "path": "dist/line-4/33.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 76989
+  },
+  "preservation": {
+    "ancestor_sha256": "c07d773a512aaf626d16b47a895cd02f2e95834d68a36410f9b55ba107669fb2",
+    "patch": [
+      430,
+      1108,
+      200,
+      72
+    ],
+    "changed_pixels": 14393,
+    "outside_patch_changed_pixels": 0
+  },
+  "generation": {
+    "tool": "installed image_gen",
+    "technique": "Generated edit; ffmpeg transferred only the small bowls-and-trail patch on vacant lower rock; standard-library inherited helper encoded the JPEG."
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Two charcoal bowls with red ochre pebbles and a yellow ochre trail added below Pepe. All ancestral paintings, Pepe, his two five-digit hands, and the five-digit hand stencil are unchanged. No new hands. No letters, numbers, captions, signatures, logos, watermarks, frames, real people or prohibited symbols seen.",
+  "limitations": [
+    "Inherited rock has a photographic-looking texture and is preserved.",
+    "Bare-rock pixels inside the small inserted patch differ slightly; outside it every pixel is identical.",
+    "The generator placed the mark on vacant lower rock rather than at the requested coordinates; only its actual isolated patch was transferred."
+  ]
+}

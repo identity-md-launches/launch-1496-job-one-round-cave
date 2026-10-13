@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "new_tests": 12,
+  "demo": {
+    "token": "ZTO",
+    "transfers": 3,
+    "addresses": 4,
+    "offline": true
+  },
+  "fresh_read": {
+    "captured_at": "2026-10-13T03:23:30Z",
+    "from_block": 26177298,
+    "to_block": 26177309,
+    "transfers": 3,
+    "matches_retained_decoded_evidence_and_anchors": true
+  },
+  "record_number": 33,
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "scope_check": true,
+  "wall_png_rgb": [
+    1254,
+    1254
+  ],
+  "jpeg": [
+    512,
+    512
+  ],
+  "jpeg_bytes": 76989,
+  "declared_output_untracked": true,
+  "unmet_visual_requirements": [],
+  "authority": "Local checks only; no independent certification."
+}
